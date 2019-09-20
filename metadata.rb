@@ -5,7 +5,7 @@ maintainer_email 'karel.minarik@elasticsearch.org'
 license          'Apache 2.0'
 description      'Installs and configures Elasticsearch'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '3.4.10'
+version          '3.4.11'
 
 supports 'amazon'
 supports 'centos'
@@ -16,7 +16,7 @@ supports 'ubuntu'
 
 depends 'apt'
 depends 'yum'
-depends 'chef-sugar'
+depends 'chef-sugar-ng'
 depends 'ark'
 
 issues_url       'https://github.com/elastic/cookbook-elasticsearch/issues'
